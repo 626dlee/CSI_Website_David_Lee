@@ -1,20 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Text from "./Text";
+import Text from "./components/Text";
 import ScrollAnimation from "react-animate-on-scroll";
-import Shade from "./Shade";
-import Banner from "./Banner";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import Tools from "./Tools";
-import Showroom from "./Showroom";
-import ShowroomTitle from "./ShowroomTitle";
-import About from "./About";
-import Home from "./Home";
-import Contact from "./Contact";
-import Products from "./Products";
-import Jobs from "./Jobs";
+import Shade from "./components/Shade";
+import Banner from "./components/Banner";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Tools from "./components/Tools";
+import Showroom from "./components/Showroom";
+import ShowroomTitle from "./components/ShowroomTitle";
+import About from "./components/About";
+import Home from "./components/Home";
+import Contact from "./components/Contact";
+import Products from "./components/Products";
+import Jobs from "./components/Jobs";
+
+import { Provider } from "react-redux";
+import store from "./store";
 
 import "./animate.css";
 import "./styles.css";

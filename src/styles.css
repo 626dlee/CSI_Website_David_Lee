@@ -16,9 +16,9 @@ html {
   left: 0;
   color: white;
   padding: 0;
-
+  /* border: dashed; */
   width: 1850px;
-  height: 1500px;
+  height: 1200px;
 }
 .text-title {
   position: relative;
@@ -308,7 +308,6 @@ a:hover img:first-child {
   top: 50%;
   left: 0;
 }
-
 .tool-button-img {
   width: 50px;
   background-color: red;
@@ -344,14 +343,14 @@ a:hover img:first-child {
 .sr-name {
   position: absolute;
   padding: 100px 100px 100px 300px;
-  top: 2000px;
+  top: 1700px;
   color: gray;
   font-size: 30px;
 }
 .sr-button1,
 .sr-button2 {
   position: absolute;
-  top: 2800px;
+  top: 2400px;
   width: 200px;
   border: none;
   color: gray;
@@ -370,7 +369,7 @@ a:hover img:first-child {
   height: 500px;
   /* border: solid 1px red; */
   left: -50px;
-  top: 2250px;
+  top: 1950px;
   opacity: 0.5;
   z-index: 0;
 }
@@ -378,7 +377,7 @@ a:hover img:first-child {
 .rotate0 {
   position: absolute;
   left: 850px;
-  top: 2300px;
+  top: 2000px;
   width: 200px;
   height: 200px;
   z-index: 10;
@@ -394,7 +393,7 @@ a:hover img:first-child {
   opacity: 0.7;
   z-index: 10;
   left: 600px;
-  top: 2250px;
+  top: 1950px;
   width: 100px;
   height: 100px;
   animation-fill-mode: forwards;
@@ -407,7 +406,7 @@ a:hover img:first-child {
   opacity: 0.7;
   z-index: 10;
   left: 1200px;
-  top: 2250px;
+  top: 1950px;
   width: 100px;
   height: 100px;
   animation-fill-mode: forwards;
@@ -462,6 +461,7 @@ a:hover img:first-child {
 .portrait {
   position: relative;
   float: left;
+  width: 200px;
   padding-right: 20px;
 }
 
@@ -656,4 +656,41 @@ input {
 .jobs-button {
   border-color: black;
   background-color: white;
+}
+.test {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  size: 100px;
+  /* border: dashed; */
+  margin: auto;
+
+  width: 1800px;
+  height: 500px;
+  top: 700px;
+}
+.product-img {
+  position: relative;
+  float: left;
+  display: grid;
+  height: 200px;
+  width: 200px;
+  padding-right: 10px;
+  /* border: dashed; */
+}
+.product-wrapper {
+  text-align: left;
+  height: 300px;
+  padding: 20px;
+  width: 550px;
+  position: relative;
+  /* border: dashed; */
+}
+
+.card-wrapper {
+  padding: 10px;
+  height: 500px;
+  width: 550px;
+  margin: auto;
+  margin-bottom: 20px;
 }
